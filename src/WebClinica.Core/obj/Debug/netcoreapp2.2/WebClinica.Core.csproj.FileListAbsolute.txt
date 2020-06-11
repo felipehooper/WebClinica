@@ -1,0 +1,9 @@
+C:\Users\Felipe\source\repos\WebClinica\src\WebClinica.Core\bin\Debug\netcoreapp2.2\WebClinica.Core.deps.json
+C:\Users\Felipe\source\repos\WebClinica\src\WebClinica.Core\bin\Debug\netcoreapp2.2\WebClinica.Core.dll
+C:\Users\Felipe\source\repos\WebClinica\src\WebClinica.Core\bin\Debug\netcoreapp2.2\WebClinica.Core.pdb
+C:\Users\Felipe\source\repos\WebClinica\src\WebClinica.Core\obj\Debug\netcoreapp2.2\WebClinica.Core.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\source\repos\WebClinica\src\WebClinica.Core\obj\Debug\netcoreapp2.2\WebClinica.Core.AssemblyInfoInputs.cache
+C:\Users\Felipe\source\repos\WebClinica\src\WebClinica.Core\obj\Debug\netcoreapp2.2\WebClinica.Core.AssemblyInfo.cs
+C:\Users\Felipe\source\repos\WebClinica\src\WebClinica.Core\obj\Debug\netcoreapp2.2\WebClinica.Core.dll
+C:\Users\Felipe\source\repos\WebClinica\src\WebClinica.Core\obj\Debug\netcoreapp2.2\WebClinica.Core.pdb
+C:\Users\Felipe\source\repos\WebClinica\src\WebClinica.Core\obj\Debug\netcoreapp2.2\WebClinica.Core.csprojAssemblyReference.cache
