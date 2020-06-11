@@ -15,11 +15,16 @@ namespace WebClinica.Domain.Tests._2._1___ProcessoModule.Fixtures
 
     public class ProcessoTestsFixture
     {
-        public IEnumerable<Procedimento> GerarProcedimentos(int quantidade)
+        public Procedimento GerarProcedimento(int quantidadeProcedimentosAtendimento, int quantidadeProcedimentosIguais,double valor)
         {
-            var atendimentos = new Faker<Procedimento>("pt_BR")
-                .CustomInstantiator(c => new Procedimento(Guid.NewGuid().ToString(), 10.0, quantidade));
-            return atendimentos.Generate(quantidade);
+            var procedimentosFAKE = new Faker<Procedimento>("pt_BR")
+                .CustomInstantiator(c => new Procedimento(Guid.NewGuid().ToString(), valor, quantidadeProcedimentosIguais));
+            return procedimentosFAKE;
+        }
+
+        public Procedimento GerarProcedimentosValorMaiorQueZero(int quantidadeProcedimentosAtendimento, int quantidadeProcedimentosIguais)
+        {
+            return GerarProcedimento(1,1, 10.0);
         }
     }
 }
