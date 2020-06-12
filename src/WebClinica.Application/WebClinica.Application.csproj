@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="2.1 - AtendimentoModule\Events\" />
+    <Folder Include="2.1 - AtendimentoModule\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebClinica.Core\WebClinica.Core.csproj" />
+    <ProjectReference Include="..\WebClinica.Domain\WebClinica.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

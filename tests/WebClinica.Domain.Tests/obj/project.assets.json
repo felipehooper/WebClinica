@@ -9803,10 +9803,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Bogus >= 29.0.2",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "WebClinica.Domain >= 1.0.0",
-      "bogus >= 29.0.2",
       "moq.automock >= 2.0.1",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.0"
@@ -9857,6 +9857,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[29.0.2, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[15.9.0, )"
@@ -9866,10 +9870,6 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
-          },
-          "bogus": {
-            "target": "Package",
-            "version": "[29.0.2, )"
           },
           "moq.automock": {
             "target": "Package",

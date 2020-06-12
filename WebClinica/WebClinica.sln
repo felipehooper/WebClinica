@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{7A6EE2B7-522F-467D-AB6F-E2EFF00A0DEB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{7A6EE2B7-522F-467D-AB6F-E2EFF00A0DEB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Domain", "2- Domain", "{B2839BCD-E746-4D75-AECB-BF6C80007677}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Domain", "3- Domain", "{B2839BCD-E746-4D75-AECB-BF6C80007677}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{5802B956-C24E-4581-A422-6D39C21DD533}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{5802B956-C24E-4581-A422-6D39C21DD533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClinica.Domain", "..\src\WebClinica.Domain\WebClinica.Domain.csproj", "{3D25A8B8-28A5-4643-A74E-CDD8796F2EB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebClinica.Domain", "..\src\WebClinica.Domain\WebClinica.Domain.csproj", "{3D25A8B8-28A5-4643-A74E-CDD8796F2EB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClinica.Domain.Tests", "..\tests\WebClinica.Domain.Tests\WebClinica.Domain.Tests.csproj", "{4B2DA3FA-B5B6-416F-8128-A99623562780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebClinica.Domain.Tests", "..\tests\WebClinica.Domain.Tests\WebClinica.Domain.Tests.csproj", "{4B2DA3FA-B5B6-416F-8128-A99623562780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClinica.Core", "..\src\WebClinica.Core\WebClinica.Core.csproj", "{97E426EF-AEA0-4FDD-8FD3-70BC1BE5DFD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebClinica.Core", "..\src\WebClinica.Core\WebClinica.Core.csproj", "{97E426EF-AEA0-4FDD-8FD3-70BC1BE5DFD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClinica.Application", "..\src\WebClinica.Application\WebClinica.Application.csproj", "{2503FAD7-FDF8-4229-A9B6-821ABB994006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClinica.Application.Tests", "WebClinica.Application.Tests\WebClinica.Application.Tests.csproj", "{C850EF10-CA91-4458-9AF9-FA03105744D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{97E426EF-AEA0-4FDD-8FD3-70BC1BE5DFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E426EF-AEA0-4FDD-8FD3-70BC1BE5DFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E426EF-AEA0-4FDD-8FD3-70BC1BE5DFD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2503FAD7-FDF8-4229-A9B6-821ABB994006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2503FAD7-FDF8-4229-A9B6-821ABB994006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2503FAD7-FDF8-4229-A9B6-821ABB994006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2503FAD7-FDF8-4229-A9B6-821ABB994006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C850EF10-CA91-4458-9AF9-FA03105744D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C850EF10-CA91-4458-9AF9-FA03105744D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C850EF10-CA91-4458-9AF9-FA03105744D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C850EF10-CA91-4458-9AF9-FA03105744D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +53,8 @@ Global
 		{3D25A8B8-28A5-4643-A74E-CDD8796F2EB5} = {B2839BCD-E746-4D75-AECB-BF6C80007677}
 		{4B2DA3FA-B5B6-416F-8128-A99623562780} = {B2839BCD-E746-4D75-AECB-BF6C80007677}
 		{97E426EF-AEA0-4FDD-8FD3-70BC1BE5DFD4} = {B2839BCD-E746-4D75-AECB-BF6C80007677}
+		{2503FAD7-FDF8-4229-A9B6-821ABB994006} = {7A6EE2B7-522F-467D-AB6F-E2EFF00A0DEB}
+		{C850EF10-CA91-4458-9AF9-FA03105744D6} = {7A6EE2B7-522F-467D-AB6F-E2EFF00A0DEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC006166-9FAF-47AC-9572-30C082813DFD}
